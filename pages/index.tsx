@@ -89,7 +89,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
       <div className="col-span-full px-6 md:px-16">
         <div className="mb-9 flex w-full items-center justify-between">
           <div className="reservoir-h4 dark:text-white">
-            Curated Collections by Volume
+            Curated Collections Ranked by Daily Volume
           </div>
           {!isSmallDevice && <SortTrendingCollections />}
         </div>
